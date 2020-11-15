@@ -54,24 +54,24 @@ def minimum_enclosing_circle(P):
 	return mec 
 
 def area(mec):
-  area = pi*mec[1]**2
-  return area
+  circle_area = pi*mec[1]**2
+  return circle_area
 
-def reock(area):
-  dis_area = int(input("District area: "))
-  reock = dis_area/area
-  return reock
+def reock(circle_area):
+  dis_area = float(input("District area: "))
+  reock_score = dis_area/circle_area
+  return reock_score
 
 num_point = int(input("Num points: "))
 point_arr = []
 for point in range(num_point):
   print("Point " + str(point + 1))
-  x = int(input("X: "))
-  y = int(input("Y: "))
+  x = float(input("X: "))
+  y = float(input("Y: "))
   point_arr.append([x, y])
 mec = minimum_enclosing_circle(point_arr)
-area = area(mec)
-reock = reock(area)
+circle_area = area(mec)
+reock_score = reock(circle_area)
 print("Center = (",mec[0][0],",",mec[0][1],") Radius = ",round(mec[1],7)) 
-print("Area of minimum enclosing circle:",area)
-print("Reok score:", reock)
+print("Area of minimum enclosing circle:",round(circle_area,7))
+print("Reok score:", round(reock_score,7))
