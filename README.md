@@ -18,10 +18,7 @@ https://repl.it/@byoo/convex-hull-calc
 **For more information on how these compactness scores are calculated refer to:**
 https://fisherzachary.github.io/public/r-output.html
 
-
-
-
-Baseline code:
+Baseline code from:
 
 https://www.nayuki.io/res/smallest-enclosing-circle/smallestenclosingcircle.py
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.ConvexHull.html
