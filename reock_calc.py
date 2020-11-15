@@ -72,6 +72,7 @@ for point in range(num_point):
 mec = minimum_enclosing_circle(point_arr)
 circle_area = area(mec)
 reock_score = reock(circle_area)
+print(point_arr)
 print("Center = (",mec[0][0],",",mec[0][1],") Radius = ",round(mec[1],7)) 
 print("Area of minimum enclosing circle:",round(circle_area,7))
 print("Reok score:", round(reock_score,7))
