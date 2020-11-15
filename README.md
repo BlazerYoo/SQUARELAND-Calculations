@@ -19,6 +19,9 @@ https://repl.it/@byoo/convex-hull-calc
 https://fisherzachary.github.io/public/r-output.html
 
 
+
+
 Baseline code:
+
 https://www.nayuki.io/res/smallest-enclosing-circle/smallestenclosingcircle.py
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.ConvexHull.html
