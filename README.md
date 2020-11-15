@@ -2,6 +2,7 @@
 Polsby-Popper, Schwartzberg, Reock, Convex Hull calculator
 
 Go to this spreadsheet and make a copy of it to calculate all compactness scores.
+
 http://squareland.ml/
 or
 https://docs.google.com/spreadsheets/d/1misNDnd3cWIVunW-MLa8EDPqhcXpD0eRRK4MDi4k7BE/edit?usp=sharing
