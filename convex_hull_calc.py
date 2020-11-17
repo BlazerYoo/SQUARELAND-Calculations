@@ -1,4 +1,3 @@
-# https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.ConvexHull.html + my stuff
 from scipy.spatial import ConvexHull
 
 def conv_hull(conv_hull_area):
