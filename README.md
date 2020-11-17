@@ -6,10 +6,10 @@ Polsby-Popper, Schwartzberg, Reock, Convex Hull calculator
 https://docs.google.com/spreadsheets/d/1misNDnd3cWIVunW-MLa8EDPqhcXpD0eRRK4MDi4k7BE/edit?usp=sharing
 
 **To calculate the Reock score, go to the following link and click the green "Run" button and follow directions on the black screen.**
-https://repl.it/@byoo/reock-calc
+https://repl.it/@byoo/reock-calculator
 
 **To calculate the Convex Hull score, go to the following link and click on the green "Run" button and following direction on the black screen.**
-https://repl.it/@byoo/convex-hull-calc
+https://repl.it/@byoo/convex-hull-calculator
 
 If you realize that you made a mistake in inputting point coordinates, click the "Stop" button and re"Run" it.
 
