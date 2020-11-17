@@ -1,11 +1,7 @@
 # SQUARELAND-Calculations
 Polsby-Popper, Schwartzberg, Reock, Convex Hull calculator
 
-**Go to one of the following two sites and make a copy of it to calculate all compactness scores.**
-
-http://squareland.ml/
-
-or
+**Go to the below link to calculate all Polsby-Popper and Schwartzberg scores.**
 
 https://docs.google.com/spreadsheets/d/1misNDnd3cWIVunW-MLa8EDPqhcXpD0eRRK4MDi4k7BE/edit?usp=sharing
 
@@ -19,8 +15,3 @@ If you realize that you made a mistake in inputting point coordinates, click the
 
 **For more information on how these compactness scores are calculated refer to:**
 https://fisherzachary.github.io/public/r-output.html
-
-Baseline code from:
-
-https://www.nayuki.io/res/smallest-enclosing-circle/smallestenclosingcircle.py
-https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.ConvexHull.html
