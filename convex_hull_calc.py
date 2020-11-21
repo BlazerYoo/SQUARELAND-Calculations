@@ -1,10 +1,42 @@
-from scipy.spatial import ConvexHull
+import math
 
-def conv_hull(conv_hull_area):
+"""
+Calculate distance between two given points
+"""
+def calculate_distance(p1, p2):
+  distance = math.sqrt((p1[0]-p2[0])**2 + (p1[1]-p2[1])**2)
+  return distance
+
+"""
+Find the greatest distance, diatmeter between any two points given an array of points
+"""
+def find_diameter(point_arr):
+  diameter = 0
+  for p1 in point_arr:
+    for p2 in point_arr:
+      distance = calculate_distance(p1, p2)
+      if distance > diameter:
+        diameter = distance
+  return diameter
+
+"""
+Find area of circle given diameter
+"""
+def find_area(diameter):
+  area = math.pi*(diameter/2)**2
+  return area
+
+"""
+Calculate reock score from district area input and given circle area
+"""
+def reock(circle_area):
   dis_area = float(input("District area: "))
-  conv_hull_score = dis_area/conv_hull_area
-  return conv_hull_score
+  reock_score = dis_area/circle_area
+  return reock_score
 
+"""
+Get inputs for array of points
+"""
 num_point = int(input("Num points: "))
 point_arr = []
 for point in range(num_point):
@@ -12,8 +44,13 @@ for point in range(num_point):
   x = float(input("X: "))
   y = float(input("Y: "))
   point_arr.append([x, y])
-hull = ConvexHull(point_arr)
-conv_hull_score = conv_hull(hull.area)
+
+"""
+Do all calculations and display results
+"""
+diameter = find_diameter(point_arr)
+circle_area = find_area(diameter)
+reock_score = reock(circle_area)
 print(point_arr)
-print("Area of convex hull: ",hull.area)
-print("Convex hull scores:",conv_hull_score)
+print("Area of minimum enclosing circle:",round(circle_area,7))
+print("Reock score:", round(reock_score,7))
